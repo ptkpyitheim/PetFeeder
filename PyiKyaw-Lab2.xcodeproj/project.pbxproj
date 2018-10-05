@@ -14,6 +14,8 @@
 		BDE1FD8D2156FFD8005E4BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE1FD8B2156FFD8005E4BDE /* LaunchScreen.storyboard */; };
 		BDE1FD982156FFD8005E4BDE /* PyiKyaw_Lab2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1FD972156FFD8005E4BDE /* PyiKyaw_Lab2Tests.swift */; };
 		BDE1FDA32156FFD8005E4BDE /* PyiKyaw_Lab2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1FDA22156FFD8005E4BDE /* PyiKyaw_Lab2UITests.swift */; };
+		BDE1FDB12157011A005E4BDE /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1FDB02157011A005E4BDE /* DisplayView.swift */; };
+		BDE1FDB321584A4B005E4BDE /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE1FDB221584A4B005E4BDE /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BDE1FD9E2156FFD8005E4BDE /* PyiKyaw-Lab2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PyiKyaw-Lab2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE1FDA22156FFD8005E4BDE /* PyiKyaw_Lab2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyiKyaw_Lab2UITests.swift; sourceTree = "<group>"; };
 		BDE1FDA42156FFD8005E4BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE1FDB02157011A005E4BDE /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		BDE1FDB221584A4B005E4BDE /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				BDE1FD822156FFD5005E4BDE /* AppDelegate.swift */,
 				BDE1FD842156FFD5005E4BDE /* ViewController.swift */,
+				BDE1FDB221584A4B005E4BDE /* Animal.swift */,
+				BDE1FDB02157011A005E4BDE /* DisplayView.swift */,
 				BDE1FD862156FFD5005E4BDE /* Main.storyboard */,
 				BDE1FD892156FFD8005E4BDE /* Assets.xcassets */,
 				BDE1FD8B2156FFD8005E4BDE /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE1FDB12157011A005E4BDE /* DisplayView.swift in Sources */,
 				BDE1FD852156FFD5005E4BDE /* ViewController.swift in Sources */,
+				BDE1FDB321584A4B005E4BDE /* Animal.swift in Sources */,
 				BDE1FD832156FFD5005E4BDE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
